@@ -1,1 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment files
 .env
+.env.*
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+.openai/
+*.egg-info/
+pip-wheel-metadata/
+
+# Mac system files
+.DS_Store
+
+# FAISS vector store files (you can recreate them, so don't version them)
+data/vectorstore/index.faiss
+data/vectorstore/index.pkl
+
+# Streamlit cache and logs
+.streamlit/
+.stcache/
+.stcache/
+*.log
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# System files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Optional: Output files
+*.out
+*.tmp
+*.bak
