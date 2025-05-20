@@ -9,7 +9,7 @@ from langchain.schema import Document
 
 
 # Set your OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your_openai_api_key_here"
 
 
 def get_zendesk_article_text(article_id):

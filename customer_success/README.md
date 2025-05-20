@@ -1,5 +1,3 @@
 <!-- python -m customer_success.main
 
 streamlit run streamlit_app.py -->
-
-OPENAI_API_KEY=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
