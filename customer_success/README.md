@@ -1,3 +1,10 @@
-<!-- python -m customer_success.main
+Create virtual environment with python 3.11.11
 
-streamlit run streamlit_app.py -->
+pip install -r requirements.txt
+
+streamlit run streamlit_app.py
+
+Setup OPENAI_API_KEY in env
+Setup OPENAI_API_KEY in data_loader.py file
+Will fix this properly later.
+
